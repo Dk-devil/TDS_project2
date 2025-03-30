@@ -33,3 +33,59 @@ tzdata==2025.1
 uvicorn==0.34.0
 zipfile36==0.1.3
 openpyxl==3.1.2  # Added for Excel file handling
+# Core Dependencies
+fastapi==0.115.11
+uvicorn==0.34.0
+
+# HTTP & Networking
+httpx==0.28.1
+httpcore==1.0.7
+anyio==4.9.0
+sniffio==1.3.1
+starlette==0.46.1
+
+# Data Handling & Parsing
+pandas==2.2.3
+numpy==2.2.4
+pydantic==2.10.6
+pydantic_core==2.27.2
+orjson==3.9.10  # Faster JSON serialization
+
+# File Handling & Parsing
+PyPDF2==3.0.1
+openpyxl==3.1.2
+pillow==10.2.0  # Image processing
+pdfminer.six==20221105  # PDF text extraction
+
+# Environment & Config Management
+python-dotenv==1.0.1
+python-multipart==0.0.9  # Form data handling
+
+# Date & Time Utilities
+python-dateutil==2.8.2
+pytz==2025.1
+tzdata==2025.1
+
+# CLI & Progress Bar
+tqdm==4.67.1
+colorama==0.4.6
+click==8.1.8
+
+# Web Scraping (if needed)
+beautifulsoup4==4.13.3
+soupsieve==2.6
+
+# Database Drivers (Uncomment the one you need)
+# mysql-connector-python==8.2.0  # For MySQL
+# psycopg2-binary==2.9.9  # For PostgreSQL
+# redis==5.0.4  # For Redis support with Celery
+
+# Async Task Queue (Optional)
+# celery==5.3.6  # Uncomment if using Celery for background tasks
+
+# Security & Networking
+certifi==2025.1.31
+idna==3.10
+six==1.17.0
+zipfile36==0.1.3
+

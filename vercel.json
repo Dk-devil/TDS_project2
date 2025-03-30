@@ -3,13 +3,11 @@
   "builds": [
     {
       "src": "start.sh",
-      "use": "@vercel/static-build"
+      "use": "@vercel/static-build",
+      "config": { "zeroConfig": true }
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "start.sh"
-    }
+    { "src": "/(.*)", "dest": "/start.sh" }
   ]
 }
